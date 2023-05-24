@@ -1,0 +1,10 @@
+.bottom {
+  position: relative;
+}
+
+._WrapperRSWP {
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: center;
+  position: relative;
+}

@@ -1,0 +1,33 @@
+.leftMenus {
+  position: relative;
+  text-align: center;
+  margin-right: 15px;
+  padding-right: 15px;
+  width: 25%;
+  border-right: 5px solid #d3d3d3;
+  font-weight: bold;
+}
+
+.leftMenus ul {
+  position: relative;
+  list-style: none;
+  padding: 0;
+  margin-left: 10px;
+  max-height: 30vh;
+}
+
+.leftMenus ul li {
+  position: relative;
+  overflow: auto;
+  text-decoration: none;
+  color: #ffaf7d;
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+  margin-bottom: 5px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  &::-webkit-scrollbar {
+    width: 0.7rem;
+  }
+}

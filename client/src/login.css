@@ -1,0 +1,166 @@
+/* .container {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+} */
+
+.bungkus {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.login {
+  width: 500px;
+  height: 400px;
+  border-radius: 20px;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.login:hover {
+  box-shadow: 0px 0px 30px 20px rgba(255, 255, 255, 0.288);
+}
+
+.login h1 {
+  margin-top: 65px;
+  font-family: "Space Grotesk", sans-serif;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 600;
+  color: #ebe5e5;
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: black;
+}
+
+.logoLogin {
+  height: 150px;
+  width: 430px;
+  align-items: center;
+  align-self: center;
+  margin-top: 10px;
+}
+
+.login btn-txt {
+  z-index: 1;
+  font-weight: 800;
+  letter-spacing: 4px;
+}
+
+.login2 {
+  width: 500px;
+  height: 400px;
+  background-color: #1b1a1ae3;
+  border-radius: 20px;
+  transition: all 0.2s;
+  align-self: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.login2:hover {
+  transform: scale(0.99);
+  border-radius: 20px;
+}
+
+.login2 a {
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid #979797;
+  overflow: hidden;
+  border-radius: 30px;
+  color: #6e6d6d;
+  transition: all 0.5s ease-in-out;
+  align-self: center;
+  margin-top: 30px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.login2 a:hover {
+  box-shadow: 1px 1px 200px #252525;
+  color: #fff;
+  border: none;
+}
+
+.type1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.5s ease-in-out;
+  background-color: #333;
+  border-radius: 30px;
+  visibility: hidden;
+  height: 10px;
+  width: 10px;
+  z-index: -1;
+}
+
+.type1:hover::after {
+  visibility: visible;
+  transform: scale(100) translateX(2px);
+}
+
+@media (max-width: 767px) {
+  .login,
+  .login2 {
+    width: 90%;
+    height: auto;
+    max-width: 500px;
+  }
+
+  .login h1 {
+    margin-top: 35px;
+    font-size: 18px;
+  }
+
+  .logoLogin {
+    height: 100px;
+    width: 300px;
+    margin-top: 10px;
+  }
+
+  .login2 a {
+    height: 40px;
+    width: 150px;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .login .btn-txt {
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+
+  .login .type1::after {
+    height: 6px;
+    width: 6px;
+  }
+}
