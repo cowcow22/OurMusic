@@ -95,6 +95,7 @@ export default function Dashboard({ code }) {
           })),
         };
         setPlaylistSelected(playlistsSelected);
+        setSearchResults([]);
         console.log("PLAYLIST SLECET", playlistsSelected);
       },
       function (err) {
@@ -147,18 +148,14 @@ export default function Dashboard({ code }) {
       className={`${isNight ? "night-mode" : "day-mode"} container-fluid px-0`}
     >
       <div id="bungkus" className="d-flex flex-col ">
-        <div className="header">
-          <img src={require("./images/logo.png")} alt="logo" />
+        {/* <div className="header">
           <p className="judul">O S I C</p>
-          <SwitchBackground isNight={isNight} ubahMode={ubahMode} />
-          <a href="/aboutus" target="_blank" className="navigation">
-            About Us
-          </a>
-        </div>
+          
+        </div> */}
 
         <div
           className="d-flex flex-grow-1 flex-row mainBody"
-          style={{ height: "73vh" }}
+          style={{ height: "88vh" }}
         >
           <Playlist
             userPlaylist={userPlaylist}
@@ -167,15 +164,22 @@ export default function Dashboard({ code }) {
           <div className="rightMenu flex-grow-1 my-2">
             <div>
               <div>
-                <div className="searchSong mr-0 d-flex justify-content-center">
-                  <Form.Control
-                    className="searchForSong"
-                    type="search"
-                    placeholder="Search Songs/Artists"
-                    value={search}
-                    onChange={(e) => setSearch(e.target.value)}
-                    onClick={() => setPlaylistSelected("")}
-                  />
+                <div className="searchSongContainer">
+                  <div className="searchSong mr-0 d-flex">
+                    <Form.Control
+                      className="searchForSong"
+                      type="search"
+                      placeholder="Search Songs/Artists"
+                      value={search}
+                      onChange={(e) => setSearch(e.target.value)}
+                      onClick={() => setPlaylistSelected("")}
+                    />
+                  </div>
+                  <div className="switchBackgroundContainer">
+                    <div className="gantiBG">
+                      <SwitchBackground isNight={isNight} ubahMode={ubahMode} />
+                    </div>
+                  </div>
                 </div>
                 {searchResults.map((track) => (
                   <TrackSearchResult

@@ -9,3 +9,12 @@
   display: flex;
   align-items: center;
 }
+
+.infoMusic {
+  color: #dadada;
+  margin-top: 10px;
+}
+
+.artis {
+  color: #a6a5a5;
+}

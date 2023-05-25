@@ -5,8 +5,8 @@
   width: 64px;
   height: 34px;
   margin-top: 25px;
-  margin-bottom: 30px;
-  /* margin-right: 200px; */
+  /* margin-bottom: 30px;
+  margin-left: 200px; */
 }
 
 .switch input {
@@ -25,6 +25,7 @@
   background-color: #73c0fc;
   transition: 0.4s;
   border-radius: 30px;
+  width: 64px;
 }
 
 .changeBG:before {
@@ -114,7 +115,6 @@
     url("../images/background_malem_uas.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  backdrop-filter: blur(10px);
   .judul,
   .leftmenuPlaylist {
     color: white;

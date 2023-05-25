@@ -28,7 +28,7 @@ function PlaylistShow({ playlistsSelected, chooseTrack }) {
                     </div>
                     <div className="info infoMusic">
                       <span className="name">{name}</span>
-                      <span>{artists}</span>
+                      <span className="artis">{artists}</span>
                     </div>
                   </div>
                   <div className="col infoMusic">
