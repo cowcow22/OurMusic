@@ -1,6 +1,11 @@
-.showPlaylist {
-  margin-left: 15px;
+.tracks {
+  margin-top: 45px;
 }
+
+.showPlaylist {
+  margin-left: 50px;
+}
+
 .detail {
   display: flex;
   flex-direction: row;
@@ -20,4 +25,9 @@
 
 .artis {
   color: #a6a5a5;
+}
+
+.Album {
+  color: #dadada;
+  margin-top: 10px;
 }

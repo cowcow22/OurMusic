@@ -11,7 +11,7 @@ function AboutUs() {
       <div className="team-content">
         <div className="box">
           <img src={require("../images/koko3.jpg")} alt="Stevanus Firman W" />
-          <h3>Stevanus Firman W</h3>
+          <h3>Stevanus Firman W.</h3>
           <h5>Informatika</h5>
           <div className="icons">
             <a href="https://www.instagram.com/">
@@ -28,7 +28,7 @@ function AboutUs() {
             src={require("../images/farrell3.jpg")}
             alt="Jacques Farrell D"
           />
-          <h3>Jacques Farrell D</h3>
+          <h3>Jacques Farrell D.</h3>
           <h5>Informatika</h5>
           <div className="icons">
             <a href="https://www.linkedin.com/in/jacques-farrell-dharma-3455a5278">
