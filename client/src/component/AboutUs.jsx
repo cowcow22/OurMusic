@@ -10,66 +10,57 @@ function AboutUs() {
 
       <div className="team-content">
         <div className="box">
-          <img src={require("../images/koko.jpg")} alt="Stevanus Firman W" />
+          <img src={require("../images/koko3.jpg")} alt="Stevanus Firman W" />
           <h3>Stevanus Firman W</h3>
           <h5>Informatika</h5>
           <div className="icons">
             <a href="https://www.instagram.com/">
-              <i className="ri-twitter-fill"></i>
+              <i className="ri-linkedin-fill"></i>
             </a>
-            <a href="https://www.instagram.com/">
-              <i className="ri-facebook-box-fill"></i>
-            </a>
-            <a href="https://www.instagram.com/">
+            <a href="https://www.instagram.com/stevfirman/">
               <i className="ri-instagram-fill"></i>
             </a>
           </div>
         </div>
 
         <div className="box">
-          <img src={require("../images/farrell.jpg")} alt="Jacques Farrell D" />
+          <img
+            src={require("../images/farrell3.jpg")}
+            alt="Jacques Farrell D"
+          />
           <h3>Jacques Farrell D</h3>
           <h5>Informatika</h5>
           <div className="icons">
-            <a href="https://www.instagram.com/">
-              <i className="ri-twitter-fill"></i>
+            <a href="https://www.linkedin.com/in/jacques-farrell-dharma-3455a5278">
+              <i className="ri-linkedin-fill"></i>
             </a>
-            <a href="https://www.instagram.com/">
-              <i className="ri-facebook-box-fill"></i>
-            </a>
-            <a href="https://www.instagram.com/">
+            <a href="https://instagram.com/farrelldharma_?igshid=NGExMmI2YTkyZg==">
               <i className="ri-instagram-fill"></i>
             </a>
           </div>
         </div>
 
         <div className="box">
-          <img src={require("../images/felix.jpg")} alt="Felix Ivander" />
+          <img src={require("../images/felix3.jpg")} alt="Felix Ivander" />
           <h3>Felix Ivander</h3>
           <h5>Informatika</h5>
           <div className="icons">
-            <a href="https://www.instagram.com/">
-              <i className="ri-twitter-fill"></i>
+            <a href="https://www.linkedin.com/in/felix-ivander-6a6562236">
+              <i className="ri-linkedin-fill"></i>
             </a>
-            <a href="https://www.instagram.com/">
-              <i className="ri-facebook-box-fill"></i>
-            </a>
-            <a href="https://www.instagram.com/">
+            <a href="https://instagram.com/lyxcatus?igshid=MzNlNGNkZWQ4Mg==">
               <i className="ri-instagram-fill"></i>
             </a>
           </div>
         </div>
 
         <div className="box">
-          <img src={require("../images/evan.jpg")} alt="Evan Yo" />
+          <img src={require("../images/evan3.jpg")} alt="Evan Yo" />
           <h3>Evan Yo</h3>
           <h5>Informatika</h5>
           <div className="icons">
             <a href="https://www.instagram.com/">
-              <i className="ri-twitter-fill"></i>
-            </a>
-            <a href="https://www.instagram.com/">
-              <i className="ri-facebook-box-fill"></i>
+              <i className="ri-linkedin-fill"></i>
             </a>
             <a href="https://www.instagram.com/">
               <i className="ri-instagram-fill"></i>

@@ -13,13 +13,6 @@ body {
   overflow-y: hidden;
 }
 
-.searchSongContainer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 25px;
-}
-
 .switchBackgroundContainer {
   margin-left: 10px;
   margin-right: 20px;
@@ -28,6 +21,14 @@ body {
 .gantiBG {
   display: flex;
   justify-content: space-between;
+}
+
+.searchSongContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  margin-left: 7%;
 }
 
 .searchSong {
@@ -54,6 +55,7 @@ body {
 
 .rightMenu {
   overflow-x: hidden;
+  /* border-bottom: 5px solid #d3d3d3; */
   &::-webkit-scrollbar {
     border-radius: 10px;
   }

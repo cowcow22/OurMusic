@@ -1,3 +1,6 @@
+.showPlaylist {
+  margin-left: 15px;
+}
 .detail {
   display: flex;
   flex-direction: row;

@@ -1,10 +1,9 @@
 .leftMenus {
   position: relative;
-  /* text-align: center; */
-  margin-right: 15px;
   padding-right: 15px;
   width: 25%;
-  border-right: 5px solid #d3d3d3;
+  border-right: 5px solid white;
+  /* border-bottom: 5px solid #d3d3d3; */
   font-weight: bold;
   color: #dadada;
 }
@@ -42,6 +41,11 @@
   margin-left: 25%;
 }
 
+.playlistName:hover {
+  color: #7b9298;
+  transition: 0.3s ease-in-out;
+}
+
 .header {
   position: relative;
   width: 100%;
@@ -61,4 +65,9 @@
 
 .navigation {
   color: #dadada;
+}
+
+.navigation:hover {
+  color: #7b9298;
+  transition: 0.3s ease-in-out;
 }

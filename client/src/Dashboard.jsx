@@ -155,13 +155,13 @@ export default function Dashboard({ code }) {
 
         <div
           className="d-flex flex-grow-1 flex-row mainBody"
-          style={{ height: "88vh" }}
+          style={{ height: "89vh" }}
         >
           <Playlist
             userPlaylist={userPlaylist}
             choosePlaylist={choosePlaylist}
           />
-          <div className="rightMenu flex-grow-1 my-2">
+          <div className="rightMenu flex-grow-1">
             <div>
               <div>
                 <div className="searchSongContainer">
