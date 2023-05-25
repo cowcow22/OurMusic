@@ -1,5 +1,5 @@
 1. npx create-react-app client
-2. bikin folder server kosong
+2. bikin folder server kosong (Folder Server diluar Folder Client)
 
 3. NPM INSTALL:
 DI CLIENT
