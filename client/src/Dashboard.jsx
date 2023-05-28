@@ -148,14 +148,9 @@ export default function Dashboard({ code }) {
       className={`${isNight ? "night-mode" : "day-mode"} container-fluid px-0`}
     >
       <div id="bungkus" className="d-flex flex-col ">
-        {/* <div className="header">
-          <p className="judul">O S I C</p>
-          
-        </div> */}
-
         <div
           className="d-flex flex-grow-1 flex-row mainBody"
-          style={{ height: "89vh" }}
+          style={{ height: "88.5vh" }}
         >
           <Playlist
             userPlaylist={userPlaylist}
