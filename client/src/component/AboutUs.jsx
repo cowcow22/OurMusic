@@ -59,10 +59,10 @@ function AboutUs() {
           <h3>Evan Yo</h3>
           <h5>Informatika</h5>
           <div className="icons">
-            <a href="https://www.instagram.com/">
+            <a href="https://www.linkedin.com/in/evan-yo-3a7353278?trk=contact-info">
               <i className="ri-linkedin-fill"></i>
             </a>
-            <a href="https://www.instagram.com/">
+            <a href="https://instagram.com/evanyoo._?igshid=OGQ5ZDc2ODk2ZA==">
               <i className="ri-instagram-fill"></i>
             </a>
           </div>
