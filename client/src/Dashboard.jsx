@@ -81,7 +81,7 @@ export default function Dashboard({ code }) {
     spotifyApi.getPlaylistTracks(id).then(
       function (data) {
         const respond = data.body;
-
+        console.log(respond);
         const playlistsSelected = {
           tracks: respond.items.map(({ track }) => ({
             id: track.id,
@@ -90,7 +90,7 @@ export default function Dashboard({ code }) {
             image: track.album.images[2].url,
             duration: track.duration_ms,
             album: track.album.name,
-            context_uri: track.album.uri,
+            context_uri: track.uri,
             track_number: track.track_number,
           })),
         };
