@@ -14,7 +14,7 @@ function AboutUs() {
           <h3>Stevanus Firman W.</h3>
           <h5>Informatika</h5>
           <div className="icons">
-            <a href="https://www.instagram.com/">
+            <a href="https://www.linkedin.com/in/stevanus-firman-widyatmoko-036350278/">
               <i className="ri-linkedin-fill"></i>
             </a>
             <a href="https://www.instagram.com/stevfirman/">
