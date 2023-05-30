@@ -24,3 +24,5 @@
 
 Nyalain server make gitbash terminal dengan directory /server `npm run devStart`
 Nyalain website make gitbash terminal dengan directory /client `npm start`
+
+Untuk menggunakan website secara maksimal, diperlukan akun Spotify Premium dan mencantumkan email akun spotify tersebut, agar developer dapat memasukkan email tersebut kedalam whitelist. (Ini merupakan ketentuan langsung dari Spotify). 
