@@ -14,12 +14,12 @@
     3. npm i nodemon --save-dev
     4. npm i cors
     5. npm i body-parser
-    6. npm i lyrics-finder
 
     Sebelum masuk step 7 pastikan sudah mengcopy file .env
-    7. npm i dotenv
+    6. npm i dotenv
 
 4. Copy dan paste file useAuth.js dari client milik saya
+5. Jangan lupa copy dan paste juga file package.json pada folder server milik saya.
 
 
 Nyalain server make gitbash terminal dengan directory /server `npm run devStart`
